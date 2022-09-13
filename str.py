@@ -3,10 +3,3 @@ def reverse_string(string: str) -> str:
         return 'This is palindrome!'
     else:
         return string[::-1]
-
-
-a = reverse_string('kayak')
-print(a)
-
-b = reverse_string('hello')
-print(b)
